@@ -1,0 +1,9 @@
+#!/bin/bash
+
+dpi160=$HOME/.dpi160
+
+echo "Docked  switch" >> /tmp/testScript.log
+
+if [ -f "$dpi160" ]; then
+    xrdb -override "$dpi160"
+fi

@@ -1,0 +1,10 @@
+configuration {
+ modi: "window#drun#ssh#combi";
+ combi-modi: "window#drun#ssh";
+ dpi: 1;
+ sort: false;
+ scroll-method: 0;
+ normal-window:false;
+ me-select-entry: "";
+ me-accept-entry: "MousePrimary";
+ }

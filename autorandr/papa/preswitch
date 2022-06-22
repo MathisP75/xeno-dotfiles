@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dpi160=$HOME/.dpi160
+
+if [ -f "$dpi160" ]; then
+    xrdb -override "$dpi160"
+fi

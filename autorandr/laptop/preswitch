@@ -1,0 +1,9 @@
+#!/bin/bash
+
+dpi140=$HOME/.dpi140
+
+echo "Laptop switch" >> /tmp/testScript.log
+
+if [ -f "$dpi140" ]; then
+    xrdb -override "$dpi140"
+fi

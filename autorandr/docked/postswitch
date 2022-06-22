@@ -1,0 +1,10 @@
+#!/bin/bash
+
+i3-msg restart
+nitrogen --restore
+
+pkill polybar
+~/.config/polybar/xeno/launch_desktop.sh
+
+pkill picom
+sleep 1 && picom -b
