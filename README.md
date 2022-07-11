@@ -3,13 +3,16 @@
 My personal i3 wm setup
 
 - Wm: i3
-- Compositor: Picom pijulius
+- Compositor: picom pijulius
 - Font: Iosevka Nerd Font
-- Bar: Polybar
-- Menus: Rofi
-- Spotify client: Spotify-tui
+- Bar: polybar
+- Menus: rofi
+- Spotify client: spotify-tui
 - Terminal: Alacritty
-- Icons: Customized Papirus icons and Zafiro icons (in the rofi launcher)
+- Resource monitor: gotop
+- Music visualizer: cava
+- File manager: pcmanfm
+- Icons: customized papirus icons and zafiro icons (in the rofi launcher)
 
 ![alt text](https://github.com/MathisP75/xeno-dotfiles/blob/main/2022-07-11-142948_3840x2160_scrot.png)
 
