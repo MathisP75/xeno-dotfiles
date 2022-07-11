@@ -18,4 +18,4 @@ dir="$HOME/.config/rofi/xeno/launcher"
 #themes=($(ls -p --hide="launcher.sh" --hide="colors.rasi" $dir))
 #theme="${themes[$(( $RANDOM % 12 ))]}"
 
-rofi -no-lazy-grab -show drun -modi drun -theme $dir/"$theme"
+rofi -no-lazy-grab -show drun -modi drun -sort true -sorting-method fzf -theme $dir/"$theme"

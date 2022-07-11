@@ -103,7 +103,8 @@ element-text {
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    margin:                         4.5% 2.7% 4.5% 2.7%;
+    margin:                         0.5% 0% 0.5% 0%;
+    padding:                        3% 0.5% 3% 0.5%;
 }
 
 element normal.urgent,

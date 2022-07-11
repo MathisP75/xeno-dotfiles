@@ -1,0 +1,19 @@
+# MonoTerminal
+theme:
+  active: "8,237,158"                # current playing song in list
+  banner: "8,237,158"                # the "spotify-tui" banner on launch
+  error_border: "175,175,175"          # error dialog border
+  error_text: "220,220,220"            # error message text (e.g. "Spotify API
+                                       # reported error 404")
+  hint: "200,200,200"                  # hint text in errors
+  hovered: "255,255,255"               # hovered pane border
+  inactive: "8,237,158"              # borders of inactive panes
+  playbar_background: "100,100,100"       # background of progress bar
+  playbar_progress: "8,237,158"      # filled-in part of the progress bar
+  playbar_progress_text: "255,255,255" # song length and time played/left
+                                       # indicator in the progress bar
+  playbar_text: "255,255,255"          # artist name in player pane
+  selected: "8,237,158"              # a) selected pane border, b) hovered item
+                                       # in list, & c) track title in player
+  text: "240,240,240"                  # text in panes
+  header: "255,255,255"                # header text in panes (e.g. 'Title')
