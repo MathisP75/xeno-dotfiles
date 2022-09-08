@@ -36,23 +36,23 @@ window {
 prompt {
     enabled: 						true;
 	padding: 						0px 5px 5px 0px;
-	background-color: 				@al;
-	text-color: 					@bar;
+	background-color: 				@ac;
+	text-color: 					@bg;
 }
 
 textbox-prompt-colon {
 	padding: 						-2px 5px 5px -10px;
 	font:							"Material\-Design\-Iconic\-Font 12";
-	background-color: 				@al;
-	text-color: 					@bar;
+	background-color: 				@ac;
+	text-color: 					@bg;
 	expand: false;
 	str: "";
 }
 
 entry {
-    background-color:               @al;
-    text-color:                     @bar;
-    placeholder-color:              @bar;
+    background-color:               @bg;
+    text-color:                     @bg;
+    placeholder-color:              @ac;
     expand:                         true;
     horizontal-align:               0;
     placeholder:                    "Search...";
@@ -63,7 +63,7 @@ entry {
 inputbar {
 	children: 						[ textbox-prompt-colon, prompt ];
     background-color:               @ac;
-    text-color:                     @bar;
+    text-color:                     @bg;
     expand:                         false;
 	border:							0px;
     border-radius:                  5px;
@@ -73,7 +73,7 @@ inputbar {
 }
 
 listview {
-    background-color:               @al;
+    background-color:               @bg;
     padding:                        0px;
     columns:                        1;
     lines:                          8;
@@ -84,7 +84,7 @@ listview {
 }
 
 mainbox {
-    background-color:               @al;
+    background-color:               @bg;
 	border:							0px;
     border-radius:                  0px;
 	border-color:					@ac;
@@ -94,7 +94,7 @@ mainbox {
 }
 
 element {
-    background-color:               @al;
+    background-color:               @bg;
     text-color:                     @fg;
     orientation:                    horizontal;
     border-radius:                  0px;
@@ -102,15 +102,21 @@ element {
 }
 
 element-icon {
-    size:                           0px;
+    background-color:               @bg;
+    text-color:                     @fg;
+    size:                           8px;
     border:                         0px;
 }
 
 element-text {
+    background-color:               @se;
+    text-color:                     @fg;
     expand:                         true;
     horizontal-align:               0;
     vertical-align:                 0.5;
-    margin:                         0px 0px 0px -3px;
+    padding:                        15px 0px 8px 25px;
+    margin:                         0px 0px -9px -8px;
+    border-radius:                  5px;
 }
 
 element selected {
