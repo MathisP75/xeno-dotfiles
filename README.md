@@ -12,7 +12,7 @@ My personal i3 wm setup
 - Resource monitor: gotop
 - Music visualizer: cava
 - File manager: pcmanfm
-- Window borders: Xborder
+- Window borders: Xborders
 - Icons: customized papirus icons and zafiro icons (in the rofi launcher)
 
 ![alt text](https://github.com/MathisP75/xeno-dotfiles/blob/main/Rice2.png)
